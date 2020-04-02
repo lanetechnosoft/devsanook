@@ -1,5 +1,6 @@
 <?php
 require_once('./configs/db.php');
+header( "Content-type:application/json; charset=UTF-8" );
 try {
     $json_data = array();
 $obj = new myPDO();
